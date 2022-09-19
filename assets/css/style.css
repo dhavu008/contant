@@ -6847,3 +6847,10 @@ body.dark .hero-banner .content-inner p {
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
+
+.site-header .menu ul li a{
+      padding: 19px 9px 0.7rem 5px;
+}
+.foundation-class{
+    padding-left: 0px !important;
+}
