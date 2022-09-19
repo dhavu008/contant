@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />    
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="author" content="themearray.com">
+
+    <meta name="description" content="Devboy - Creative Personal Portfolio HTML5 Resume / CV / vCard Template for professional and personal website">
+
+    <meta name="keywords" content="resume, cv, portfolio, vcard, responsive, retina, jquery, css3, bootstrap, material CV, creative, designer, developer, online cv, online resume, powerful portfolio, professional" />
+       
+    <link rel="shortcut icon" href="assets/images/favicon-dark.png" />
+   
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+
+    <link rel="stylesheet" href="assets/css/magnific-popup-min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    
+    <title>Documentation for Devboy Personal Resume Template</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="container">
+            <div class="inner-text text-center">
+                <div class="logo">D</div>
+                <br>
+                <h1>Welcome to <strong>Devboy</strong> </h1>
+                <h2>HTML Template Documentation</h2>
+            </div><!-- /.inner-text -->
+        </div><!-- /.container -->
+    </div><!-- /.banner -->
+    
+    <div class="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <ul class="docs-nav">
+                            <li><a href="#get-start"><strong>Getting Started</strong></a></li>
+                            <li><a href="#file-structure">Folder Structure</a></li>
+                            <li><a href="#installation">Installation</a></li>
+                            <li><a href="#pages">Pages</a></li>
+                            <li><a href="#color-schemes">Background and Schemes</a></li>
+                            <li><a href="#source-files"><strong>Source Files</strong></a></li>
+                            <li><a href="#source-font">Fonts</a></li>
+                            <li><a href="#source-css">CSS</a></li>
+                            <li><a href="#source-js">JS</a></li>
+                            <li><a href="#customize-template"><strong>Customize Template</strong></a></li>
+                            <li><a href="#customize-font">Change Fonts</a></li>
+                            <li><a href="#customize-icon">Icons</a></li>
+                            <li><a href="#customize-home">Customize Homepage</a></li>
+                            <li><a href="#customize-blog">Blog Managing</a></li>
+                            <li><a href="#customize-contact">Customize Contact Form</a></li>
+                            <li><a href="#support">Support Desk</a></li>
+                            <li><a href="#changelog">Changelog</a></li>
+                            <li><a href="#copyright">Copyright and License</a></li>
+                        </ul>
+                    </div><!-- /.sidebar -->
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-8">
+                    <div class="docs-content">
+                        <div class="intro ">
+                            <h2>Introduction</h2>
+                            <p>Thank you for purchasing the Devboy Resume / CV template! This is the documentation that will help you with customizing the template.</p>
+                            <div class="template-info bg-secondary p-4 rounded">
+                                <table>
+                                    <tr>
+                                        <td>Template name</td>
+                                        <td>:</td>
+                                        <td>Devboy - Personal Portfolio Resume / CV / vCard Template</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Version</td>
+                                        <td>:</td>
+                                        <td>v1.0.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Author</td>
+                                        <td>:</td>
+                                        <td><a href="www.themearray.com">www.themearray.com</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Support</td>
+                                        <td>:</td>
+                                        <td><a href="mailto:themearray@gmail.com">themearray@gmail.com</a></td>
+                                    </tr>
+                                </table>
+                            </div><!-- /.template-info -->
+                            <p>This documentation is to help you regarding each step of customization. Please go through the documentation carefully to understand how this template is made and how to edit this properly.</p>
+                            <div class="bg-warning p-3 rounded mb-5">
+                                <p class="m-0 text-dark"><strong class="rounded px-2 py-1"><i class="fa fa-exclamation-triangle"></i> Important!</strong> This is a static HTML template and not a WordPress theme! It doesn't have any admin/back-end panel and it is created for the developers or person who knows the HTML. If this is not you have intended to buy, you can <a href="#">ask for a refund</a>.</p>
+                            </div>
+                            
+                        </div><!-- /.intro -->
+
+                        <hr>
+
+                        <div class="section get-start" id="get-start">
+                            <h2>Getting Started</h2>
+                            <p>Before you dive into code, we want you to explain how the template is structured and organized, what support is included, what tools did we have used, etc.</p>
+
+                            <div id="file-structure" class="file-structure">
+                                <h4>Folder Structure</h4>
+                                <ul class="m-0">
+                                    <li><i class="fas fa-folder"></i> <span>Devboy</span>
+                                        <p>Main (root) folder with index HTML files and assets folder</p>
+                                        <ul class="m-0">
+                                            <li>
+                                                <i class="fas fa-folder"></i> <span>CSS</span>
+                                                <p>Template <code>style.css</code> and other plugins CSS files.</p>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-folder"></i> <span>Fonts</span>
+                                                <p>Slick Carousel Font and Template Icons Support</p>
+                                            </li>
+                                            
+                                            <li>
+                                                <i class="fas fa-folder"></i> <span>Images</span>
+                                                <p>Contains images and svg icons that are used in the template.</p>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-folder"></i> <span>JS</span>
+                                                <p>Template <code>custom.js</code> and other plugins</p>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-folder"></i> <span>Sass</span>
+                                                <p>All Scss Files stored on that folder</p>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-folder"></i> <span>Webfonts</span>
+                                                <p>Fonts that are used in the template. FontAwesome icons used in template</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div><!-- /#file-structure -->
+
+                            <br>
+
+                            <div id="installation" class="installation">
+                                <h4>Template Installation</h4>
+                                <p>To Install the Devboy Template please follow the instruction below:</p>
+                                <h5>FTP Upload:</h5>
+                                <ul>
+                                    <li>Open up your FTP manager and connect to your hosting</li>
+                                    <li>Browse to required directory (Normally public_html)</li>
+                                    <li>Upload the file inside Devboy zip folder.</li>
+                                    <li>Extract the Devboy zip folder.</li>
+                                </ul>
+                            </div><!-- /#installation -->
+
+                            <br>
+
+                            <div id="pages" class="pages">
+                                <h4>Template Pages</h4>
+                                <ul>
+                                    <li><strong>Home Page</strong>
+                                        <ul>
+                                            <li><code>index.html</code> for Homepage.</li>
+                                            <li><code>index-dark.html</code> for Homepage Dark Version.</li>
+                                            <li><code>index2.html</code> for Homepage background image.</li>
+                                            <li><code>index2-dark.html</code> for Homepage background image Dark Version.</li>
+                                            <li><code>index-rtl.html</code> for RTL Homepage.</li>
+                                            <li><code>index-rtl-dark.html</code> for RTL Dark Version Homepage.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Blogs</strong>
+                                        <ul>
+                                            <li><code>blog.html</code> for Blogs Page</li>
+                                            <li><code>blog-dark.html</code> for Blogs Page Dark version</li>
+                                            <li><code>blog-rtl.html</code> for Blog page RTL demo</li>
+                                            <li><code>blog-details.html</code> for Blog Details page</li>
+                                            <li><code>blog-details-rtl.html</code> for Blog details RTL demo</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Extra</strong>
+                                        <ul>
+                                            <li><code>elements.html</code> Elements page ( Team member, pricing, clients, calendar, tables, progressbar etc. )</li>
+                                            <li><code>elements-dark.html</code> Elements page [ dark version ]</li>
+                                            <li><code>elements-rtl.html</code> Elements page [ RTL version ]</li>
+                                            <li><code>404.html</code> 404 / Page Not Found / Error page</li>
+                                        </ul>
+                                    </li>                                    
+                                </ul>
+                            </div><!-- /#pages -->
+
+                            <br>
+
+                            <div id="color-schemes">
+                                <h4>Backgrounds and schemes</h4>
+                                <img src="assets/images/11111.png" class="img-fluid" alt="Devboy Template Scheemes">
+                                <br> <br>
+                                <p>Devboy has 2 Background schemes: Light (default) and Dark. Both templates are unique design and All Browsers compatible.</p>
+                                <p>Background change should be done by adding the class you need into the tag &lt;body&gt;.</p>
+<pre>
+Simply Add the "dark" class to the body tag for active the Dark Template
+
+&lt;body class="dark"&gt;
+</pre>
+                            </div>
+                        </div><!-- /.get-start -->
+
+                        <hr>
+
+                        <div class="section source-file" id="source-files">
+                            <div id="source-font">
+                                <h2>Source Files</h2>
+                                <h4>Fonts</h4>
+                                <p>This template content has been used by google fonts. You can implement any google fonts or custom font you want and link the to the head of the html document.</p>
+    
+                                <div class="font">
+<pre>
+/* ========================================================
+    Google fonts link
+=========================================================== */
+&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"&gt;
+</pre>
+                                </div><!-- /.font -->
+                            </div><!-- /#source-font -->
+
+                            <div id="source-css" class="source-css">
+                                <div class="css">
+                                    <h4>CSS</h4>
+                                    <p>All the CSS plugins have been used in this template are linked in head section of the html documents.</p>
+<pre>
+/* ========================================================
+    CSS Plugins
+=========================================================== */
+Bootstrap v5
+&lt;link rel="stylesheet" href="assets/css/bootstrap.min.css"&gt;
+
+Fontawesome
+&lt;link rel="stylesheet" href="assets/css/fontawesome.min.css"&gt;
+
+Custom Icons
+&lt;link rel="stylesheet" href="assets/css/template-icons.css"&gt;
+
+Animated Headline 
+&lt;link rel="stylesheet" href="assets/css/animatedheadline.css"&gt;
+
+Simplebar
+&lt;link rel="stylesheet" href="assets/css/simplebar.css"&gt;
+
+Owl Carousel
+&lt;link rel="stylesheet" href="assets/css/owl.theme.default.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/css/owl.carousel.min.css"&gt;
+
+magnific Popup
+&lt;link rel="stylesheet" href="assets/css/magnific-popup.css"&gt;
+
+Slick Carousel
+&lt;link rel="stylesheet" href="assets/css/slick.css"&gt;
+
+Main Style sheet
+&lt;link rel="stylesheet" href="assets/css/style.css"&gt;
+</pre>
+                                </div><!-- /.css -->
+                            </div><!-- /#source-css -->
+                            
+                            <div id="source-js" class="source-js">
+                                <div class="js">
+                                    <h4>JS</h4>
+                                    <p>All the js plugins have been used in this template are imported end of the HTMl document with a custom js file namely <code>custom.js</code></p>
+<pre>
+/* ========================================================
+    JS Plugins
+=========================================================== */
+&lt;script src="assets/js/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/assets/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/assets/js/waypoints.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/jquery-ui.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/jquery.counterup.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/jquery.animatedheadline.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/simplebar.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/circle-progress.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/owl.carousel.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/slick.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/isotope.pkgd.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/packery-mode.pkgd.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="assets/js/custom.js"&gt;&lt;/script&gt;
+</pre>
+                                </div>
+                            </div><!-- /#source-js -->
+                        </div><!-- /.section -->
+
+
+                        <div class="section customize-template" id="customize-template">
+                            <h2>Customize Devboy</h2>
+                            <h4>How to edit files!</h4>
+                            <p>Yes, it’s completely possible to edit HTML in Notepad++ or a similar program, but things will go much more smoothly for you if you use a proper code editing app. One of the main reasons is you’ll get colored highlighting of your code, as you’ll see shortly, which will make it much easier to read and edit.</p>
+                            <ul>
+                                <li><a href="https://notepad-plus-plus.org/" target="_blank" class="text-white">Notepad++</a></li>
+                                <li><a href="https://code.visualstudio.com/" target="_blank" class="text-white">VS Code</a></li>
+                                <li><a href="https://www.sublimetext.com/" target="_blank" class="text-white">Sublime Text</a></li>
+                            </ul>
+                            <div id="customize-font" class="customize-font">
+                                <h4>How to Change Fonts!</h4>
+                                <ol>
+                                    <li>
+                                        If you are not satisfied with the default font, you can choose from hundreds ones from the <a href="https://fonts.google.com/" class="text-danger" target="_blank">Google Fonts</a>. After you are happy with the selected
+                                        font, click to the font name link. You'll be redirected to to font detail. Then
+                                        select the font style that suggested. To select the style click <strong class="text-uppercase"><i class="fa fa-plus"></i> Select this style</strong>.
+                                        A sidebar window will show with text "Selected Family" - click it. When you are done  click <strong>&lt;link&gt;</strong> radio tab and copy the link url.
+                                        <br>
+                                        For example: <br>
+                                        <code class="code-it">
+                                            &lt;link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet"&gt;
+                                        </code>
+                                    </li>
+                                    <li>
+                                        Then open the HTML file where you want to change fonts and find the <code class="code-it">&lt;link&gt;...</code>
+                                        element which loads the Google font in the <code>&lt;head&gt;</code> tag and place your copied code.
+                                    </li>
+                                    <li>
+                                        Final step is to change the font family in the <code>_typography.scss</code> file from the variable-site folder. Open it and see the font heading and font body variable. Now go back to Google Fonts page where you have choose your font and copy the font family name and past it to here.                                        
+                                    </li>
+                                </ol>
+<pre>
+    $font_heading: 'Playfair Display', serif;
+
+    $font_body: 'Montserrat', sans-serif;
+</pre>
+                            </div><!-- /#customize-font -->
+                            
+                            <div id="customize-icon" class="customize-icon">
+                                <h4>How to Change Font Awesome Icons!</h4>
+                                <p>
+                                    <a href="https://fontawesome.com/">Font Awesome</a> includes more than 900 icons that can be easily used on your site.
+                                    For example you want the download link with the PDF icon.
+                                </p>
+                                <ol>
+                                    <li>
+                                        Go to <a href="https://fontawesome.com/icons">Font Awesome Icons</a> gallery and find the one you need.
+                                        I our example it is <code>file-pdf</code>. Click the detail, then find and copy <code class="code-it">&lt;i class="fas fa-file-pdf"&gt;&lt;/i&gt;</code>.
+                                    </li>
+                                    <li>
+                                        Place the copied line to your link: <code class="code-it">&lt;a href="file.pdf"&gt;&lt;i class="fas fa-file-pdf"&gt;&lt;/i&gt; Download File&lt;/a&gt;</code>
+                                    </li>
+                                    <li>
+                                        Final result: <a href="file.pdf"><i class="fas fa-file-pdf"></i> Download File</a>
+                                    </li>
+                                </ol>
+                            </div><!-- /#customize-icon -->
+
+                            <hr>
+
+                            <div id="customize-home" class="customize-home">
+                                <h2>Customize Home Page</h2>
+                                <ul class="nav nav-tabs border-0 mb-4" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#change_logo" role="tab">Logo</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#change-nav" role="tab">Navigation Bar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#change_banner" role="tab">Hero</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" >
+                                    <div class="tab-pane fade show active" id="change_logo" role="tabpanel">
+                                        <h4>How to Change Logo</h4>
+                                        <p>Replace the logo name from your logo directory.</p>
+                                        <div class="popup-img">
+                                            <a href="assets/images/1.webp" >
+                                                <img src="assets/images/1.webp" class="img-fluid " alt="How to change Logo | Devboy">
+                                            </a>
+                                        </div><!-- /.popup-img -->
+                                    </div>
+                                    <div class="tab-pane fade" id="change-nav" role="tabpanel">
+                                        <h4>How to Change Navigation Bar</h4>
+                                        <div class="popup-img">
+                                            <a href="assets/images/2.webp" title="How to change navbar | Devboy">
+                                                <img src="assets/images/2.webp" class="img-fluid " alt="How to change navbar | Devboy">
+                                            </a>
+                                        </div><!-- /.popup-img -->
+                                    </div>
+                                    <div class="tab-pane fade" id="change_banner" role="tabpanel" >
+                                        <h4>How to Change Homepage Hero Section</h4>
+                                        <div class="popup-img">
+                                            <a href="assets/images/.webp" title="How to Change Hero | Devboy">
+                                                <img src="assets/images/.webp" class="img-fluid " alt="How to Change Hero | Devboy">
+                                            </a>
+                                        </div><!-- /.popup-img -->
+                                    </div>                                   
+                                </div>
+                            </div><!-- /#customize-home -->
+                            
+                            <br><br><br>
+                            <div id="customize-blog" class="blog-managing">
+                                <h4>Blog Managing</h4>
+
+                                <div class="popup-img border border-2 border-dark mb-4">
+                                    <a href="assets/images/blog1.webp" title="Blog Item | Devboy">
+                                        <img src="assets/images/blog1.webp" class="img-fluid " alt="Blog Item | Devboy">
+                                    </a>
+                                </div><!-- /.popup-img -->
+                                <div class="popup-img border border-2 border-dark">
+                                    <a href="assets/images/blog.webp" title="How to modify Blog | Devboy">
+                                        <img src="assets/images/blog.webp" class="img-fluid " alt="How to modify Blog | Devboy">
+                                    </a>
+                                </div><!-- /.popup-img -->
+                            </div>
+
+                            <br><br>
+                            <h4>Modify Clients Testimonial</h4>
+                            <p>You can modified your Clients testimonial Carousel.</p>
+                            <div class="popup-img border border-2 border-dark mb-4">
+                                <a href="assets/images/feedback1.png" title="How to modify Feedback Carousel | Devboy">
+                                    <img src="assets/images/feedback1.png" class="img-fluid " alt="How to modify Feedback Carousel | Devboy">
+                                </a>
+                            </div><!-- /.popup-img -->
+                            <div class="popup-img border border-2 border-dark">
+                                <a href="assets/images/feedback.webp" title="How to modify Feedback Carousel | Devboy">
+                                    <img src="assets/images/feedback.webp" class="img-fluid " alt="How to modify Feedback Carousel | Devboy">
+                                </a>
+                            </div><!-- /.popup-img -->
+                            <br>
+                            
+                            <h4>How to modify Footer</h4>
+                            <p>To modify footer copyright text and social media links, just go to the end of document and replace footer links you have. For Example:</p>
+                            <div class="popup-img">
+                                <a href="assets/images/footer.webp" title="How to modify Footer | Devboy">
+                                    <img src="assets/images/footer.webp" class="img-fluid" alt="How to modify Footer| Devboy">
+                                </a>
+                            </div><!-- /.popup-img -->
+
+                            <hr>
+
+                            <div id="customize-contact" class="customize-contact">
+                                <h2>Customize Contact Form</h2>      
+
+                                <h4>How to modify contact Form</h4>
+                                <p>To modify the contact page please open the <code>index.html</code> file in your code editor and go to <code>contact-form</code> div. Now customize the feild as you wish.</p>
+                                <div class="popup-img">
+                                    <a href="assets/images/form.png" >
+                                        <img src="assets/images/form.png" class="img-fluid " alt="How to Customize Contact Form | Devboy">
+                                    </a>
+                                </div><!-- /.popup-img -->
+                                <br>
+                                <p><i class="fa fa-exclamation-triangle text-danger"></i> Remember that the form action value set to <code>contact-form.php</code>. You should replace your domain email <code>webmaster_email</code> address to get an email from the customer.  Please contact the support team to get support for any inconvenience.</p>
+                                <div class="popup-img">
+                                    <a href="assets/images/contact-form.png" >
+                                        <img src="assets/images/contact-form.png" class="img-fluid " alt="How to customize Contact form | Devboy">
+                                    </a>
+                                </div><!-- /.popup-img -->
+                            </div><!-- /#customize-contact -->
+                            
+                        </div><!-- /.section -->
+                        <div class="section">
+                            <div class="support-desk" id="support">
+                                <h2>Support Desk</h2>
+                                <img src="assets/images/support.png" class="float-lg-end"  alt="Devboy Support">
+                                <p>Please remember you have purchased a very affordable template and you have not paid for a full-time web design agency. Occasionally we will help with small tweaks, but these requests will be put on a higher priority due to their nature. Support is also 100% optional and we provide it for your connivence, so please be patient, polite and respectful.</p>
+                                <p>Please visit our <a href="https://themeforest.net/user/themearray/">profile page</a> or ask question <a href="mailto: themearray@gmail.com">@ThemeArray</a> </p>
+                                <br>
+                                <h4>Support for our items includes:</h4>
+                                <ul class="list-unstyled pl-3">
+                                    <li>* &nbsp; Responding to questions or problems regarding the item and its features</li>
+                                    <li>* &nbsp; Fixing bugs and reported issues</li>
+                                    <li>* &nbsp; Providing updates to ensure compatibility with new software versions</li>
+                                </ul>
+                                <br>
+                                <h4>Item support does not include:</h4>
+                                <ul class="list-unstyled pl-3">
+                                    <li>* &nbsp; Customization and installation services</li>
+                                    <li>* &nbsp; Support for third party software and plug-ins</li>
+                                </ul>
+                                <br>
+                                <h4>Before seeking support, please...</h4>
+                                <ul class="list-unstyled pl-3">
+                                    <li>Make sure your question is a valid Template Issue and not a customization request.</li>
+                                    <li>Make sure you have read through the documentation and any related video guides before asking support on how to accomplish a task.</li>
+                                    <li>Try disabling any active plugins to make sure there isn't a conflict with a plugin. And if there is this way you can let us know.</li>
+                                    <li>If you have customized your Template and now have an issue, back-track to make sure you didn't make a mistake. If you have made changes and can't find the issue, please provide us with your changelog.</li>
+                                    <li>Almost 80% of the time we find that the solution to people's issues can be solved with a simple "Google Search". You might want to try that before seeking support. You might be able to fix the issue yourself much quicker than we can respond to your request.</li>
+                                    <li>Make sure to state the name of the Template you are having issues with when requesting support via ThemeForest.</li>
+                                </ul>
+                            </div><!-- /.support-desk -->
+                        </div><!-- /.section -->
+                        <div class="section">
+                            <div class="changelog" id="changelog">
+                                <h2>Version History (Changelog)</h2>
+                                <p>You can find the version history (changelog.txt) file on <a href="#">Devboy-full.zip</a> folder or you can check changelog on template sale page.</p>
+                                <p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template. No guarantees, but I'll do my best to assist. If you have a more general question relating to the templates on ThemeForest, you might consider visiting the forums and asking your question in the <strong>"Item Discussion"</strong> section.</p>
+                                <h4>Changelog</h4>
+<pre>
+-----------------------------------------------------------------------------------------
+Version 1.0.0 - 16 December 2021
+-----------------------------------------------------------------------------------------
+- Initial Release Devboy
+- Upadate all plugins
+- Improve site speed and image optimization
+- Improve Responsive issues
+- Breadcrumb improved for all pages
+- Product design quality enhanced
+</pre>
+                            </div><!-- /.changelog -->
+                        </div><!-- /.section -->
+                        <div class="section">
+                            <div class="copyright" id="copyright">
+                                <h2>Copyright and license</h2>
+                                <p>This Template released under <a href="#">MIT</a> License.</p>
+                                <p>For more information about copyright and license check <a href="https://www.themearray.com" target="_blank">themearray.com</a></p>
+                            </div><!-- /.copyright -->
+                        </div><!-- /.section -->
+                    </div><!-- /.docs-content -->
+                </div><!-- /.col-md-9 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.main-section -->
+
+
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

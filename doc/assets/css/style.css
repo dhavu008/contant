@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Open+Sans:wght@400;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #18191A;
+    color: #fff;
+}
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+}
+a {
+    color: #fff;
+}
+.banner {
+    padding: 80px 15px;
+    background-color: rgb(89 93 92 / 0.10);
+}
+.banner .logo {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    display: inline-block;
+    padding: 12px 34px;
+    background: #d79d4b;
+    margin-bottom: 2rem;
+}
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.banner h1 strong {
+    color: #D79D4B;
+}
+.banner h2 {
+    font-weight: 300;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.main-section {
+    padding: 90px 0;
+}
+.main-section .col-md-4 {
+    position: relative;
+}
+.sidebar {
+    height: 100%;
+    padding: 50px 0;
+    background-color: #242526;
+    transition: all 0.3s ease;
+    overflow-y: auto;
+}
+.sidebar.fixed {
+    position: fixed;
+    width: 416px;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 32px;
+    padding: 6px 25px;
+    transition: 0.3s;
+    outline: none;
+}
+.sidebar ul li a.cc-active,
+.sidebar ul li a:hover {
+    background-color: #D79D4B;
+}
+.docs-content .file-structure, .get-start, .installation, .pages, .source-file, .source-css, .source-js, .customize-template, .customize-font, .customize-icon, .customize-home, .customize-contact, .support-desk{
+    padding-top: 30px;
+}
+.main-section .nav-tabs {
+    border-bottom: 0;
+}
+.main-section .nav-tabs a {
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 0;
+    border: 0;
+}
+.docs-content {
+    padding: 50px 15px;
+}
+.docs-content h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.docs-content h4 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+.docs-content h5 {
+    font-weight: 600;
+}
+.docs-content p {
+    font-size: 16px;
+}
+.template-info {
+    margin-bottom: 30px;
+}
+.template-info td {
+    font-weight: 300;
+}
+.template-info td a {
+    text-decoration: none;
+    display: inline-block;
+}
+.template-info td+td {
+    padding: 0 0px 0 20px;
+}
+.file-structure ul, .installation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.file-structure ul ul, .installation ul {
+    padding-left: 30px;
+}
+.file-structure ul p {
+    padding-left: 30px;
+}
+.file-structure ul li span {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.file-structure ul li i {
+    margin-right: 10px;
+    color: #D79D4B;
+}
+.installation ul li {
+    line-height: 36px;
+    font-size: 16px;
+    position: relative;
+}
+.installation ul li:before {
+    content: '*';
+    position: absolute;
+    left: -20px;
+    top: 3px;
+    color: #D79D4B;
+    font-weight: 600;
+}
+pre {
+    background-color: #242526;
+    padding: 30px;
+    border-radius: 10px;
+}
+code {
+    background-color: #000;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #fff;
+}
