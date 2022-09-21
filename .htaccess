@@ -1,0 +1,4 @@
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+AddHandler application/x-httpd-php .php
