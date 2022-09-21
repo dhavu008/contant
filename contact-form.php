@@ -1,4 +1,6 @@
 <?php
+echo "dfg";
+echo phpinfo();exit;
 	include("mail/src/PHPMailer.php");
 	include("mail/src/Exception.php");
 	include("mail/src/SMTP.php");
